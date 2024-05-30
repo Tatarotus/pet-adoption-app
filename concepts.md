@@ -28,3 +28,18 @@ runs after the rendering process and can be cleaned up with the `useEffect` retu
 This dependency array is a powerful feature because it allows you to optimize performance by controlling when your effects run.
 
 
+## Error boundaries
+
+[React Error Boundaries](https://reactjs.org/docs/error-boundaries.html) to handle errors in your application.
+
+An error boundary is a React component that can catch errors in its children and display a fallback UI.
+
+### Error Handling
+* Key features:
+    - Catch errors that occur in child components.
+    Prevent erros from propagating to parent components (up the components tree).
+    - Display a fallback UI.
+    - Log errors to an error reporting service.
+    - Display error messages to users.
+
+One of the use cases is to create a class component and in the componentDidCatch catch the error.
