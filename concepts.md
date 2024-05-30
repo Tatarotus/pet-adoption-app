@@ -43,3 +43,16 @@ An error boundary is a React component that can catch errors in its children and
     - Display error messages to users.
 
 One of the use cases is to create a class component and in the componentDidCatch catch the error.
+
+### React Modal
+
+React Modal is a React component library for creating customizable and accessible modals. It provides an easy-to-use API to manage modal dialogs, allowing developers to define content, behavior, and styling. Key features include:
+
+- Easy integration into React apps
+- Accessibility compliance with ARIA attributes
+- Customizable animations and styles
+- Event handling for opening and closing modals
+- Compatibility with server-side rendering (SSR)
+At its core, React Modal operates by manipulating the React component tree, ensuring that modals are rendered and managed within the context of the application's state and lifecycle. It supports a variety of features essential for modern web applications, such as accessibility compliance through ARIA attributes, customizable animations, and event handling mechanisms for opening, closing, and interacting with the modal content.
+
+React Modal simplifies adding interactive pop-up dialogs to applications, making it a flexible and robust tool for developers.
